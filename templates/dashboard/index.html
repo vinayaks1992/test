@@ -1,8 +1,42 @@
 
-{%extends 'partials/base.html'%}
+{%extends 'partials/base.html'%} <br/>
 
-{% block title %} Home {% endblock %}
+{% block title %} Home {% endblock %}<br/>
 {% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Statistics</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6>Total</h6>
+                                        <p class="text-center"> 10</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                        <div class="col-md-4"><div class="card">
+                                <div class="card-body">
+                                    <h6>Completed</h6>
+                                        <p class="text-center"> 5</p>
+                                            </div>
+                        </div>
+                        <div class="col-md-4"><div class="card">
+                                <div class="card-body">
+                                    <h6>Uncompleted</h6>
+                                        <p class="text-center"> 2</p>
+                                            </div></div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+
+        <div class="col-md-6">2</div>
+    </div>
+</div>
 
 {% endblock %}
